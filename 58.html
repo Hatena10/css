@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+    <style>
+        .flexbox{
+            display: flex;
+        }
+        .menu-item{
+            font-size: 18px;
+            font-weight: bold;
+            padding:10px 7px;
+            font-family: 'Itim', cursive;
+        }
+        .top-menu-item:hover{
+            background-color: green;
+            color: white;
+            
+        }
+        .second-menu-item{
+            background-color: black;
+            color: white;
+           
+        }
+        .second-menu-item:hover{
+            background-color: white;
+            color: green;
+        }
+        .mr-auto{
+            margin-right: auto;
+        }
+        .second-menu{
+            background-color: black;
+            font-family: 'Nanum Pen Script', cursive;
+        }
+        .main-content-box{
+            flex: 1;
+        }
+        .side-menu{
+            width: 200px;
+            background-color: rgb(194, 190, 190);
+            font-size: 20px;
+            font-weight: bold;
+            font-family: 'Merriweather', serif;
+        }
+        .ad-box{
+            width:100px;
+            background-color: green;
+        }
+        h1:hover +p{
+            display: block; 
+        }
+    </style>
+<head>
+<body>
+    <!-- 상단 메뉴 -->
+    <!-- .top-menu.flexbox>.top-menu-item.menu-item*4>lorem1^.top-menu-item.menu-item.mr-auto>
+         lorem1^.top-menu-item.menu-item*4>lorem1 -->
+      <div class="top-menu flexbox">
+        <div class="top-menu-item menu-item">
+            Lorem.
+        </div>
+        <div class="top-menu-item menu-item">
+            Tutorials <i class="fa-solid fa-caret-down"></i>
+        </div>
+        <div class="top-menu-item menu-item">
+           References <i class="fa-solid fa-caret-down"></i>
+        </div>
+        <div class="top-menu-item menu-item">
+            Exercises <i class="fa-solid fa-caret-down"></i>
+        </div>
+        <div class="top-menu-item menu-item mr-auto">
+           Spaces 
+        </div>
+        <div class="top-menu-item menu-item">
+            <i class="fa-solid fa-circle-half-stroke"></i>
+        </div>
+        <div class="top-menu-item menu-item">
+            <i class="fa-solid fa-earth-americas"></i>
+        </div>
+        <div class="top-menu-item menu-item">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <div class="top-menu-item menu-item">
+           <img src="https://www.w3schools.com/images/mypagelogo32x32.png" alt="human">
+        </div>
+      </div> 
+    <!-- 두번째 메뉴 -->
+    <!-- .second-menu.flexbox>.second-menu-item.menu-item*11>lorem1^
+         .second-menu-item.menu-item.mr-auto>lorem1^.second-menu-item.menu-item*3>lorem1 -->
+         <div class="second-menu flexbox">
+            <div class="second-menu-item menu-item">
+                Lorem.
+            </div>
+            <div class="second-menu-item menu-item">
+                Doloribus.
+            </div>
+            <div class="second-menu-item menu-item">
+                Impedit.
+            </div>
+            <div class="second-menu-item menu-item">
+                Quas.
+            </div>
+            <div class="second-menu-item menu-item">
+                Dicta.
+            </div>
+            <div class="second-menu-item menu-item">
+                Tenetur.
+            </div>
+            <div class="second-menu-item menu-item">
+                Nostrum!
+            </div>
+            <div class="second-menu-item menu-item">
+                Modi.
+            </div>
+            <div class="second-menu-item menu-item">
+                Repudiandae!
+            </div>
+            <div class="second-menu-item menu-item">
+                Earum.
+            </div>
+            <div class="second-menu-item menu-item">
+                Unde.
+            </div>
+            <div class="second-menu-item menu-item mr-auto">
+                Lorem.
+            </div>
+            <div class="second-menu-item menu-item">
+                Lorem.
+            </div>
+            <div class="second-menu-item menu-item">
+                Velit!
+            </div>
+            <div class="second-menu-item menu-item">
+                Perspiciatis.
+            </div>
+         </div>
+    <!-- 콘텐츠 컨테이너 -->
+    <!-- .content-container.flexbox>.side-menu>.side-menu-item*30>lorem1^^.main-content-box>(h1>lorem2^p>lorem)*10^.ad-box -->
+    <div class="content-container flexbox">
+        <div class="side-menu">
+            <div class="side-menu-item">
+                Lorem.
+            </div>
+            <div class="side-menu-item">
+                Earum!
+            </div>
+            <div class="side-menu-item">
+                Quo!
+            </div>
+            <div class="side-menu-item">
+                Eum!
+            </div>
+            <div class="side-menu-item">
+                Expedita.
+            </div>
+            <div class="side-menu-item">
+                Quae!
+            </div>
+            <div class="side-menu-item">
+                Consequatur!
+            </div>
+            <div class="side-menu-item">
+                Excepturi!
+            </div>
+            <div class="side-menu-item">
+                Iure.
+            </div>
+            <div class="side-menu-item">
+                Placeat!
+            </div>
+            <div class="side-menu-item">
+                Excepturi?
+            </div>
+            <div class="side-menu-item">
+                Odit.
+            </div>
+            <div class="side-menu-item">
+                Eligendi.
+            </div>
+            <div class="side-menu-item">
+                Explicabo.
+            </div>
+            <div class="side-menu-item">
+                Odit?
+            </div>
+            <div class="side-menu-item">
+                Maxime.
+            </div>
+            <div class="side-menu-item">
+                Dolore?
+            </div>
+            <div class="side-menu-item">
+                Optio?
+            </div>
+            <div class="side-menu-item">
+                Iure.
+            </div>
+            <div class="side-menu-item">
+                At.
+            </div>
+            <div class="side-menu-item">
+                Nisi!
+            </div>
+            <div class="side-menu-item">
+                Et.
+            </div>
+            <div class="side-menu-item">
+                Laborum?
+            </div>
+            <div class="side-menu-item">
+                Numquam!
+            </div>
+            <div class="side-menu-item">
+                Adipisci!
+            </div>
+            <div class="side-menu-item">
+                Tenetur.
+            </div>
+            <div class="side-menu-item">
+                Excepturi!
+            </div>
+            <div class="side-menu-item">
+                Aliquam?
+            </div>
+            <div class="side-menu-item">
+                Accusantium.
+            </div>
+            <div class="side-menu-item">
+                Neque.
+            </div>
+        </div>
+        <div class="main-content-box">
+            <h1>
+                Lorem, ipsum.
+            </h1>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit voluptate laboriosam nisi ab nostrum dolores, reprehenderit optio id repellendus commodi repellat itaque? Quas, unde explicabo nisi hic tempora non alias?
+            </p>
+            <h1>
+                Iure, recusandae.
+            </h1>
+            <p>
+                Nulla perferendis, nemo suscipit doloribus ipsum nisi, ipsa itaque, eius minima ratione deleniti nihil aperiam alias. Culpa est, omnis sunt alias ea, aliquam, fuga voluptatibus quae eaque fugiat quod debitis.
+            </p>
+            <h1>
+                Aspernatur, eos?
+            </h1>
+            <p>
+                Quos commodi animi debitis perspiciatis tempora et rerum dolore fugiat atque, voluptatem enim, repellat non, nulla pariatur laboriosam hic repellendus. Culpa omnis harum nam odit enim fuga possimus? Esse, voluptate.
+            </p>
+            <h1>
+                Nobis, quae.
+            </h1>
+            <p>
+                Deleniti quia, odit dolor delectus voluptas adipisci recusandae dolore, facere sit in fuga ea consectetur assumenda nihil ipsam mollitia eum! Hic in quibusdam magnam dolor nostrum omnis sunt perferendis nihil.
+            </p>
+            <h1>
+                Officia, unde.
+            </h1>
+            <p>
+                Minima ipsum beatae ad? Nihil magni natus, porro asperiores debitis sed nesciunt repellendus assumenda beatae similique nam, accusamus quos a, iste corrupti. Distinctio blanditiis nemo atque placeat temporibus doloribus hic?
+            </p>
+            <h1>
+                Porro, similique.
+            </h1>
+            <p>
+                Dolores in, excepturi quos, enim, ex vel ea aliquam expedita veritatis asperiores atque porro sint aut numquam ipsam tenetur incidunt libero obcaecati molestias praesentium! Reprehenderit labore inventore eveniet cupiditate quae.
+            </p>
+            <h1>
+                Aspernatur, quod?
+            </h1>
+            <p>
+                Numquam quam alias laboriosam minima esse. Assumenda in numquam veritatis atque expedita voluptatem architecto natus quia, distinctio obcaecati illo dolorum. Harum, a. Odio earum accusamus veniam, nemo facere quo ullam.
+            </p>
+            <h1>
+                Blanditiis, ad?
+            </h1>
+            <p>
+                Magnam quidem aliquid in quod nemo a explicabo saepe provident eaque autem dignissimos, necessitatibus accusamus reprehenderit magni delectus et totam voluptatum neque tenetur commodi perspiciatis dolores. Quam, dolor corrupti. Soluta!
+            </p>
+            <h1>
+                Nisi, dolore!
+            </h1>
+            <p>
+                Aut maiores voluptatum accusamus dignissimos recusandae praesentium adipisci ex, atque est nostrum rem dicta quisquam sunt obcaecati minima minus repellendus voluptas sequi ducimus quam necessitatibus. Blanditiis quo tenetur quibusdam quas?
+            </p>
+            <h1>
+                Modi, error?
+            </h1>
+            <p>
+                Nemo, ipsum neque nisi earum doloribus quasi magnam iusto illo rem asperiores commodi assumenda id sapiente harum excepturi accusamus, distinctio a omnis natus est dolor molestias! Assumenda quis ex obcaecati.
+            </p>
+        </div>
+        <div class="ad-box"></div>
+    </div>
+</body>
+</html>
