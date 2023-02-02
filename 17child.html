@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        li{
+            text-decoration: underline;
+        }
+     
+        /* >:자식 선택자 */
+        ul>li {
+            color: blue;
+
+        }
+        .todo>li{
+        background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- ul*2>li*3>lorem1 -->
+    <ul class=" todo">
+        <li>Lorem.</li>
+        <li>Soluta.</li>
+        <li>Quaerat.</li>
+    </ul>
+    <ul class="note">
+        <li>Lorem.</li>
+        <li>Delectus!</li>
+        <li>Rerum.</li>
+    </ul>
+</body>
+</html>
